@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.betty-logo {
+    text-align: center;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+#betty-aside .betty-logo img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+#betty-aside {
+    padding: 60px 60px 15px 60px;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    transition: 0.5s;
+    background: #e52e71;
+    background-image: linear-gradient(to bottom, #e52e71, #ff8a00);
+}
+
+#betty-aside .betty-logo span {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: none;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.75em;
+}
+
+#betty-aside #betty-main-menu>ul>li>a {
+    margin: 7px 0 0 0;
+    padding: 0 0 7px 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.75em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.04);
+    color: #fbf7f9;
+}
+
+#betty-main-menu ul li {
+    list-style: none;
+}
+
+#betty-main-menu ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.feat-inner {
+    box-sizing: border-box;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding-top: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.feat-inner h5,
+h6,
+i {
+    color: #fbf7f9;
+}
+
+.betty-footer ul li {
+    font-size: 40px;
+    margin: 10px 5px;
+    text-align: center;
+    float: left;
+    list-style: none;
+}
